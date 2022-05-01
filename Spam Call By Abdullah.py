@@ -28,7 +28,7 @@ else:
     print ()
     print ('\033[1;91mError Password')
     exit()
-
+print ()
 c=('\033[1;092m××××××××××××××××××××××××××××××××××××')
 for I in c+'\n':
 	sys.stdout.write (I)
