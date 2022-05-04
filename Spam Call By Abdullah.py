@@ -9,14 +9,14 @@ print ()
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
 print ()
-link1="\033[1;93m https://miklpro.com/PpB2"
+link1="\033[1;93m https://miklpro.com/Z4ba"
 print (link1)
 #sleep (1)
 print ()
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
 sleep (1)
 
-rrr=requests.get('https://pastelink.net/1jic85qw').text
+rrr=requests.get('https://pastelink.net/xgn3rbwd').text
 soup=BS(rrr,'html.parser')
 lxc=(soup.find('div',{'class':'body-display'})).text
 
