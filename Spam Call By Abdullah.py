@@ -20,7 +20,7 @@ sleep (1)
 soup=BS(rrr,'html.parser')
 lxc=(soup.find('div',{'class':'body-display'})).text'''
 
-if password =="Abdullah8010:
+if password =="Abdullah8010":
     print ()
     print ('\033[1;96m》True Password《')
     sleep (1)
