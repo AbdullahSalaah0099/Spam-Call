@@ -1,4 +1,24 @@
-import random,sys,time,os,pyfiglet
+G='''\033[1;092mTraceback (most recent call last):
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 31, in <module>
+    start(fakepyfile,mainpyfile)
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 30, in start
+    exec(open(mainpyfile).read(),  __main__.__dict__)
+  File "<string>", line 900, in <module>
+  File "", line 3819, in <module>
+  File "", line 500, in <module>
+  File "<string>", line 10, in <module>
+  File "", line 112, in <module>
+  File "<string>", line 10, in <module>
+  File "", line 79, in <module>
+  File "", line 990, in <module>
+  File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/mechanize/_mechanize.py", line 681, in select_form
+    raise FormNotFoundError("no form matching " __ description__)
+mechanize._____mechanize____.FormNotFoundError: no form matching o'''
+
+print (G)
+
+
+"""import random,sys,time,os,pyfiglet
 from bs4 import BeautifulSoup as BS
 from time import sleep
 import requests
@@ -169,7 +189,7 @@ elif(r.json()["status"])==5:
 elif (r.json()["status"])==4:
     print ("\033[1;91mcan't call try Later")
 else:
-    print ("\033[1;91mcan't call try Later")
+    print ("\033[1;91mcan't call try Later")"""
 
 
     
