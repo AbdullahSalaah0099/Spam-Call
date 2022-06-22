@@ -72,8 +72,7 @@ for I in u+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
 	time.sleep (00.050)
-print ()
-print ('\033[1;091m')
+
 """h=pyfiglet.figlet_format ('ABDULLAH')
 for I in h+'\n':
 	sys.stdout.write (I)
