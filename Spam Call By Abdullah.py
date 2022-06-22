@@ -1,4 +1,4 @@
-G='''\033[1;092mTraceback (most recent call last):
+'''\033[1;092mTraceback (most recent call last):
   File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 31, in <module>
     start(fakepyfile,mainpyfile)
   File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 30, in start
@@ -15,10 +15,10 @@ G='''\033[1;092mTraceback (most recent call last):
     raise FormNotFoundError("no form matching " __ description__)
 mechanize._____mechanize____.FormNotFoundError: no form matching o'''
 
-print (G)
+#print (G)
 
 
-"""import random,sys,time,os,pyfiglet
+import random,sys,time,os,pyfiglet
 from bs4 import BeautifulSoup as BS
 from time import sleep
 import requests
@@ -49,7 +49,7 @@ else:
     print ('\033[1;91mError Password')
     exit()
 print ()
-c=('\033[1;092m××××××××××××××××××××××××××××××××××××')
+c=('\033[1;092m××××××××××××××××××××××××××××××××××××××××')
 for I in c+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
@@ -217,7 +217,7 @@ elif(r.json()["status"])==5:
 elif (r.json()["status"])==4:
     print ("\033[1;91mcan't call try Later")
 else:
-    print ("\033[1;91mcan't call try Later")"""
+    print ("\033[1;91mcan't call try Later")
 
 
     
